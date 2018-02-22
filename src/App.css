@@ -1,0 +1,109 @@
+article,
+aside,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+body {
+  background: #fff;
+  font-family: sans-serif;
+  width: 95%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+.hide-text {
+  text-indent: -9999px;
+  font-size: 0;
+}
+.report {
+  border: solid 1px #afafaf;
+  padding: 10px;
+  overflow: hidden;
+  background: #ffde00;
+}
+.report legend {
+  position: absolute;
+  left: -999px;
+}
+.report .col-left {
+  float: left;
+  width: 43%;
+}
+.report .col-right {
+  float: right;
+  width: 57%;
+}
+.report label {
+  padding: 10px 15px;
+  display: block;
+  font-size: 0.75em;
+  font-weight: 700;
+  clear: both;
+  vertical-align: top;
+}
+.report select,
+.report input {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+.report input {
+  padding: 5px;
+}
+.report textarea {
+  width: 98%;
+  margin-top: 5px;
+}
+.report button {
+  margin: 10px 15px;
+  border: solid 1px #aaa;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  padding: 12px 25px;
+  color: #000;
+  float: right;
+}
+caption {
+  font-size: 1.75em;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 1em 0 0.5em;
+  font-weight: bold;
+}
+thead {
+  background: #f1f1f1;
+}
+th,
+tfoot {
+  text-transform: uppercase;
+}
+tfoot {
+  border-top: solid 1px #f1f1f1;
+}
+th,
+td {
+  padding: 15px 44px 15px 44px;
+  font-size: 1em;
+}
+td i {
+  cursor: pointer;
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+.action-edit i {
+  background-position: -192px 0;
+}
+.action-delete i {
+  width: 13px;
+  background-position: -225px 0;
+}
